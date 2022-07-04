@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie App</title>
+    <link rel="stylesheet" href="assets/dev_files/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/icons/favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <input
+          type="text"
+          value=""
+          id="search"
+          autocomplete="off"
+          placeholder="Search"
+          id="search"
+          autofocus
+        />
+      </header>
+
+      <main><div class="gallery-img"></div></main>
+
+      <footer>
+        <div>
+          <a href="https://github.com/Shahzod222"
+            ><img src="assets/icons/github.svg" alt="github" class="footer-img"
+          /></a>
+        </div>
+        <p class="year">2022</p>
+        <div>
+          <a href="https://rs.school/js-stage0/"
+            ><img
+              alt="rsschool-image"
+              src="https://rs.school/images/rs_school_js.svg"
+              class="footer-img"
+          /></a>
+        </div>
+      </footer>
+      <div class="modal hidden">
+        <div class="modal-body">
+          <div class="overview-content">
+            <p class="overview"></p>
+            <div class="actorCont">
+              <p>Actors:</p>
+              <div class="actors"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/dev_files/app.js"></script>
+  </body>
+</html>
